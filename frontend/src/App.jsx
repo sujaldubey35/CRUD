@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:8000/products";
+const API_URL = `http://${window.location.hostname}:8000/products`;
 
 const emptyForm = {
   name: "",
