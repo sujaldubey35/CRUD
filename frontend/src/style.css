@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 40px auto;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-top: 0;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  border: 0;
+  border-radius: 7px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.secondary {
+  background: #6b7280;
+}
+
+.danger {
+  background: #dc2626;
+}
+
+.actions,
+.row-actions,
+.list-header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.list-header {
+  justify-content: space-between;
+}
+
+.error {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  background: #f9fafb;
+}
+
+@media (max-width: 700px) {
+  th,
+  td {
+    white-space: nowrap;
+  }
+}
